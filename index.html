@@ -1,19 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>index</title>
-</head>
-<body>
-<button id="btn">点击</button>
-<script src="node_modules/axios/dist/axios.min.js"></script>
-<script>
-    var oBtn = document.getElementById('btn')
-    oBtn.onclick = function () {
-        axios.get('http://47.95.225.38/steam/api/getData').then(function(res){
-            console.log(res)
-        })
-    }
-</script>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>steam</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>
